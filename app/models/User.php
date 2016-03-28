@@ -2,8 +2,6 @@
 
 namespace App\Models;
 
-
-
 class User extends MainModel
 {
     protected $table = 'utilisateur';
@@ -18,9 +16,9 @@ class User extends MainModel
     /**
      * Enregistre un nouvel utilisateur | non utilisé.
      *
-     * @param string  $username
-     * @param string  $password
-     * @param integer $roleId
+     * @param string $username
+     * @param string $password
+     * @param int    $roleId
      */
     public function register($username, $password, $roleId = 0)
     {
@@ -64,7 +62,7 @@ class User extends MainModel
     /**
      * Vérifie vérifie que le mot de passe saisi et le mot de passe utilisateur est le bon.
      *
-     * @param object $user L'utilisateur créé avec le model
+     * @param object $user     L'utilisateur créé avec le model
      * @param string $password Le mot de passe
      *
      * @return bool Retourne true si l'utilisateur/mot de passe sont les bons, false sinon.

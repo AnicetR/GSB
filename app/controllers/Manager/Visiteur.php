@@ -91,7 +91,7 @@ class Visiteur extends MainController
 
     /**
      * POST Route
-     * Sauvegarde d'un élément non forfaitisé
+     * Sauvegarde d'un élément non forfaitisé.
      */
     public function saveNotBundled()
     {
