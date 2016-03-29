@@ -2,8 +2,8 @@ var gulp = require('gulp');
 var $    = require('gulp-load-plugins')();
 
 var sassPaths = [
-  'www/bower_components/foundation-sites/scss',
-  'www/bower_components/motion-ui/src'
+  'public/bower_components/foundation-sites/scss',
+  'public/bower_components/motion-ui/src'
 ];
 
 gulp.task('sass', function() {
