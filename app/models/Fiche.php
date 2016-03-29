@@ -9,6 +9,7 @@ class Fiche extends Mapper
 {
     /**
      * Fiche constructor.
+     *
      * @param string $table Le nom de la table
      */
     public function __construct($table)
@@ -61,10 +62,10 @@ class Fiche extends Mapper
     }
 
     /**
-     * Créé la fiche correspondant au mois donné pour l'utilisateur donné
+     * Créé la fiche correspondant au mois donné pour l'utilisateur donné.
      *
      * @param string $userID
-     * @param int $month au forfait mmyyyy
+     * @param int    $month  au forfait mmyyyy
      */
     public static function createFiche($userID, $month)
     {

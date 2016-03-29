@@ -31,7 +31,7 @@ class Frais extends Mapper
      * Récupère les éléments forfaitisés de l'utilisateur.
      *
      * @param string $userID
-     * @param string $month au forfait mmyyyy
+     * @param string $month  au forfait mmyyyy
      *
      * @return mixed
      */
@@ -60,7 +60,7 @@ class Frais extends Mapper
     /**
      * Sauvegarde des éléments forfaitisés.
      *
-     * @param array $data
+     * @param array  $data
      * @param string $userId
      *
      * @return bool
@@ -119,7 +119,7 @@ class Frais extends Mapper
     /**
      * Sauvegarde de l'élément non forfaitisé.
      *
-     * @param array $data  les données à enregistrer, au format ['']
+     * @param array  $data   les données à enregistrer, au format ['']
      * @param string $userID Id de l'utilisateur
      *
      * @return bool renvoie true si l'élément a été enregistré, false si ce n'est pas le cas
@@ -142,7 +142,7 @@ class Frais extends Mapper
      * Suppression de l'élément non forfaitisé.
      *
      * @param string $userID L'id de l'utilisateur
-     * @param int $id     L'id de la ligne de frait hors forfait
+     * @param int    $id     L'id de la ligne de frait hors forfait
      *
      * @return bool renvoie true si l'élément existe et a été supprimé, false si ce n'est pas le cas
      */
